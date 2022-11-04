@@ -213,7 +213,7 @@ export default function Home() {
         </div>
         </div>
         {/* offices */}
-        <div className="mt-36 mb-40 hidden lg:block ">
+        <div className="mt-36 mb-40  lg:block overflow-x-hidden">
           <div className="mx-auto container w-[1120px]">
             <div className="flex flex-col justify-between gap-14  ">
               <h1 className="font-MontBold text-large leading-medium">Our offices</h1>

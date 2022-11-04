@@ -5,7 +5,7 @@ function Footer(){
         <footer className="bg-black bg-opacity-90 bg-bgnoise">
             <div className="px-6 max-w-[1120px]  md:mx-auto container">
                 <div className="pt-14 md:flex gap-20 ">
-                    <div className="flex-auto md:flex justify-between flex-col">
+                    <div className="flex-auto md:flex justify-between md:mt-12 flex-col">
                         <div>
                             <div className="w-40 h-5 md:w-44 md:h-5"><img src="logowhite.svg" alt="logo"/></div>
                             <div className="w-[182px] mt-10 md:hidden "><p className="text-[24px] leading-[36px] text-white font-MontBold">All software, zero bullshit.</p></div>
@@ -60,9 +60,9 @@ function Footer(){
                             </div>
                         </div>
                         {/* flex container */}
-                        <div className="md:flex  justify-between items-start pt-20 md:pt-0">
+                        <div className="md:flex  justify-between md:items-end pt-20 md:pt-0">
                             {/* form container */}
-                            <div className="mb-16 ">
+                            <div className="mb-16 md:mb-0 ">
                                 <p className="text-white font-MontBold leading-middle text-smallx">Our News Letter</p>
                                 <div className="mt-2 ">
                                     <form>
@@ -71,17 +71,17 @@ function Footer(){
                                             <label className="absolute left-0 top-1 cursor-text text-smallx font-sans text-lightgray peer-focus:text-xs  peer-focus:-top-4 transition-all peer-focus:text-[#5135ff] duration-700 " for='email'>Your Email</label>
 
                                         </div>
-                                        <div className="my-5">
-                                        <Button title='Subscribe' style='px-10 my-10'/>
+                                        <div className="my-5 md:mb-0 w-auto flex ">
+                                        <Button title='Subscribe' style='px-10 my-10 md:mb-0 flex-grow'/>
                                         </div>
                                     </form>
                                 </div>
                             </div>
                             {/* image div */}
                           
-                            <div>
+                            <div className="">
                                 <div className=" mx-auto my-8 md:my-0 w-[216px]"><img src="pangea.svg" alt="logo" className="max-w-full h-16"/></div>
-                                <div className="w-[216px] mx-auto my-8"><img src="https://cinnamon.agency/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclutch-badge.cc332fa4.png&w=640&q=100" alt="review"/></div>
+                                <div className="w-[216px] mx-auto my-8 md:mb-0 "><img src="https://cinnamon.agency/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclutch-badge.cc332fa4.png&w=640&q=100" alt="review"/></div>
                             </div>
                             <nav className="text-center pt-10 md:hidden">
                                 <p className="text-lightgray font-smallx font-sans leading-middle underline">hello@cinnamon.agency</p>
@@ -92,7 +92,7 @@ function Footer(){
 
                 </div>
                 {/* section 2 footer */}
-                <div className="flex flex-col-reverse py-9 items-center md:py-5 md:mt-8 md:grid grid-cols-2  md:border-t border-y-gray-500 ">
+                <div className="flex flex-col-reverse py-9 items-center md:py-5 md:mt-8 md:grid grid-cols-2  md:border-t border-y-gray-500  ">
                     {/* copy right */}
                     <div className="flex  pt-4 justify-between text-white opacity-60 md:justify-start ">
                         <p className=" font-sans text-smallx">© 2022 Cinnamon</p>
