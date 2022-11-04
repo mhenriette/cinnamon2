@@ -3,7 +3,7 @@ function Offices({url, title, image,icon, subtitle}){
     return (
        
               <div className="  gap-8 ">
-                <div className="w-[544px] group transition-all ">
+                <div className="max-w-[544px] group transition-all ">
                   <Link href={url}>
                     <div className="max-w-full relative group-hover:text-lightblue duration-300"><img src={image} alt="house"/></div>
                   </Link>

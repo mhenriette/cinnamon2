@@ -213,7 +213,7 @@ export default function Home() {
         </div>
         </div>
         {/* offices */}
-        <div className="mt-36 mb-40  ">
+        <div className="mt-36 mb-40 hidden lg:block ">
           <div className="mx-auto container w-[1120px]">
             <div className="flex flex-col justify-between gap-14  ">
               <h1 className="font-MontBold text-large leading-medium">Our offices</h1>
@@ -234,7 +234,7 @@ export default function Home() {
         <div className="mx-auto container md:px-12">
           <div className="flex flex-col gap-10">
             <h1 className="font-MontBold text-large leading-large">Stay in the loop<br/> on tech topics</h1>
-            <div className="md:grid grid-cols-3">
+            <div className="md:grid grid-cols-3 ">
             <LoopCard url='https://cinnamon.agency/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6mf4aqitzrkt%2F4z4OPjERGBRoMzBhMFKHPE%2Fd29f2e92e90c78f6427c1eba8517b9ae%2FFreelance_VS._Agency_blog_illustration.png&w=1920&q=75' title='Sales' name='Matija Bermanec & Lorena Ujević' date='2022-10-13'
             time='6min'
             descript='Differences in Hiring an Agency vs. Freelancers 2.0'

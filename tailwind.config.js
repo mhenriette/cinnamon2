@@ -31,6 +31,9 @@ module.exports = {
         
 
       },
+      container:{
+        center:true
+      },
       fontFamily: {
         sans: ["Mont", "arial"],
         MontHeavy: ["MontHeavy", "arial"],
