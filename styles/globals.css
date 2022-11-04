@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+  
+
+@font-face {
+  font-family: 'Mont';
+  src: local('Mont'),url('/fonts/MontRegular.woff2') format('woff2'),url('/fonts/MontRegular.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MontSemiBold';
+  src: local('MontBold'),url('/fonts/MontSemiBold.woff2') format('woff2'),url('/fonts/MontSemiBold.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MontBold';
+  src: local('MontHeavy'),url('/fonts/MontBold.woff2') format('woff2'),url('/fonts/MontBold.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MontHeavy';
+  src: local('MontHeavy'),url('/fonts/MontHeavy.woff2') format('woff2'),url('/fonts/MontHeavy.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+body{
+  @apply overflow-x-hidden
+}
+.address{
+  @apply mt-8 text-lightgray
+}
+.address__country{
+  @apply text-white font-MontBold text-smallx leading-middle 
+}
+.address__location{
+  @apply text-[14px] leading-6 font-sans
+}
+.media{
+  @apply py-6 px-3
+}
+.profile{
+  @apply px-6 mb-16 md:mx-auto md:px-0 container max-w-[1120px]
+}
+.profile__img{
+  @apply transition-all duration-700 ease-in-out hover:scale-[1.06] 
+}
+.list-items{
+  @apply text-small font-MontBold mb-[24px]
+}
+
+}
